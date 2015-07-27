@@ -1,0 +1,19 @@
+Dependencies for Project 'Blinky', Target 'CMSIS-DAP': (DO NOT MODIFY !)
+F (.\Blinky.c)(0x55ABB7C6)(-c --cpu Cortex-M0+ -D__EVAL -g -O0 --apcs=interwork -I "C:\Users\emrmrcn\Google Drive\R&D\Wireless Mesh Networks\tez\code\TIcc1120-2015-07-19\TIcc1120\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.4.0\Device\Include-D__UVISION_VERSION="514" -D_RTE_ -DMKL25Z128xxx4-o .\flash\blinky.o --omf_browse .\flash\blinky.crf --depend .\flash\blinky.d)
+I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.4.0\Device\Include\MKL25Z4.h)(0x5167EC2E)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cm0plus.h)(0x53FC782A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54765570)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmInstr.h)(0x53FF38FA)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h)(0x53FF38FA)
+I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.4.0\Device\Include\system_MKL25Z4.h)(0x5167EC2E)
+I (TIspi.h)(0x559062DE)
+F (.\TIspi.h)(0x559062DE)()
+F (.\Abstract.txt)(0x531724CC)()
+F (RTE\Device\MKL25Z128xxx4\startup_MKL25Z4.s)(0x5297355C)(--cpu Cortex-M0+ --pd "__EVAL SETA 1" -g --apcs=interwork -I "C:\Users\emrmrcn\Google Drive\R&D\Wireless Mesh Networks\tez\code\TIcc1120-2015-07-19\TIcc1120\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.4.0\Device\Include--pd "__UVISION_VERSION SETA 514" --pd "_RTE_ SETA 1" --pd "MKL25Z128xxx4 SETA 1"--list .\flash\startup_mkl25z4.lst --xref -o .\flash\startup_mkl25z4.o --depend .\flash\startup_mkl25z4.d)
+F (RTE\Device\MKL25Z128xxx4\system_MKL25Z4.c)(0x559DFCD2)(-c --cpu Cortex-M0+ -D__EVAL -g -O0 --apcs=interwork -I "C:\Users\emrmrcn\Google Drive\R&D\Wireless Mesh Networks\tez\code\TIcc1120-2015-07-19\TIcc1120\RTE"-I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include-I C:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.4.0\Device\Include-D__UVISION_VERSION="514" -D_RTE_ -DMKL25Z128xxx4-o .\flash\system_mkl25z4.o --omf_browse .\flash\system_mkl25z4.crf --depend .\flash\system_mkl25z4.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54765570)
+I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.4.0\Device\Include\MKL25Z4.h)(0x5167EC2E)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cm0plus.h)(0x53FC782A)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmInstr.h)(0x53FF38FA)
+I (C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include\core_cmFunc.h)(0x53FF38FA)
+I (C:\Keil_v5\ARM\PACK\Keil\Kinetis_KLxx_DFP\1.4.0\Device\Include\system_MKL25Z4.h)(0x5167EC2E)

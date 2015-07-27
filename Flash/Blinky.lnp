@@ -1,0 +1,8 @@
+--cpu Cortex-M0+
+".\flash\blinky.o"
+".\flash\startup_mkl25z4.o"
+".\flash\system_mkl25z4.o"
+--strict --scatter ".\Flash\Blinky.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Flash\Blinky.map" -o .\Flash\Blinky.axf

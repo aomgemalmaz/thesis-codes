@@ -1,0 +1,42 @@
+The 'Blinky' project is a simple CMSIS based example for the
+Freescale 'MKL25' series microcontroller using Freescale 'FRDM-KL25Z' evaluation board
+populated with MKL25Z128xxx4 device.
+Compliant to Cortex Microcontroller Software Interface Standard (CMSIS v2.0).
+
+Example functionality
+ - Core Clock runs at 48 MHz
+
+The simple example blinks three LEDs in sequence.
+LED D3 is blinking in the sequence Red/Blue/Green/off.
+
+- phase A
+- phase B
+- phase C
+- phase D
+
+The RTX_Blinky program is available in different targets:
+
+  CMSIS-DAP:                       Debug/Target Driver is configured as CMSIS-DAP OpenSDA
+                                   	             and runs from Internal Flash located on chip
+                                   		(used for production or target debugging)
+
+
+  CMSIS-DAP-MTB:                   Debug/Target Driver is configured as CMSIS-DAP OpenSDA
+                                   		It shows use of MTB(Micro Trace Buffer)
+
+
+Selecting "CMSIS-DAP" OpenSDA application:
+ 1. Start OpenSDA in bootloader mode: Unplug and plug the OpenSDA USB connection whilst pushbutton, SW1 is pressed.
+ 2. Drag and drop "CMSIS-DAP" OpenSDA application file to the OpenSDA mass storage device.
+ 3. Unplug and plug the OpenSDA USB connection.
+
+Note:
+ - "CMSIS-DAP" OpenSDA application file is located in folder "OpenSDA".
+ - For more information on OpenSDA, refer to FRDM-KL25Z user manual.
+
+MTB(Micro Trace Buffer) Notes
+-------------------------------
+- DBG_MTB.ini file configures MTB settings, which allows to configure MTB RAM buffer size, buffer position, and flow control.
+- MTB allocates user-defined region of the system RAM for storing instruction address change-of-flow data packets.
+  Modify MTB position and size to define the used memory region. The position must be a multiple of the buffer size.
+  The allocated buffer region cannot be used as application RAM.
